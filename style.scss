@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(37, 37, 37);
+}
+
+a {
+  text-decoration: none;
+}
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+
+article,
+nav,
+footer {
+  @include flex;
+}
